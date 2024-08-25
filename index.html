@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- <link href="mediaqueries.css" type="text/css" rel="stylesheet"> -->
+    <title>Neon Vortex</title>
+</head>
+<body>
+    <div id="game-section-container">
+        <p class="my-first-game-title"><b>Neon Vortex:<br> Gradient Rebellion</b></p>
+        <section id="game-section">
+            <div class="form-container">
+                <h2>HOW TO PLAY</h2>
+        <p style="text-align: start; color: #ffff00;",>Create your character to travel forth into the land of of the evil linear gradient square. To defeat the evil gradient you have to level up through rapid movement. You move with the arrow keys. When your level is high enough you'll be able to activate your special move to defeat the square. Good luck!</p>
+                <form id="character-creation-form">
+                    <p>Name</p> <input type="text" name="character name">
+                    <p>Class</p><select name = "class">
+                        <option value="unknown" name="unknown">unknown</option>
+                        <option value="Warrior" name="warrior">Warrior</option>
+                        <option value="Mage" name="Mage">Mage</option>
+                        <option value="Assassin" name="assassin">Assassin</option>
+                    </select>
+                    <p>Emoji</p> <select name ="emoji">
+                        <option value="⚔️" >⚔️</option>
+                        <option value="🧙‍♀️">🧙‍♀️</option>
+                        <option value="🔪">🔪</option>
+                    </select> 
+                    
+                    <p>Color</p> <input type="color" name="color" value="#FF00FF">
+                    
+                    <p>Special Move (SM)</p>
+                    <input type="text" name="special move">
+                    
+                    <p>Activate SM Command</p> 
+                    <input type="password" minlength="8" maxlength="14" required name="activate SM command">
+
+                    <!-- Submitbuttons -->
+                    <input class="game-submit-button" type="submit" value="Start Playing!">
+                    <input class="game-reset-button" type="reset">
+                </form>
+            </div>
+            <div id="game-board-container">
+                
+                <!-- <div class="block five ">🚀</div> -->
+            </div>
+            
+        </section><br>
+        <h1 id="winner-title" class="hidden">YOU WIN 🎉 </h1>
+        <div id="stat-container">
+                <div id="step-container">
+                    <p>Step counter: <div id="counter-value"><b>0</b></div></p><br>
+                </div>
+                <div id="level-container">
+                    <p>Level: <div id="level-counter"><b>1</b></div></p>
+                </div>
+                <div id="stopwatch-container">
+                    <span id="stopwatch"><b>00:00:00</b></span>
+                </div>
+            </div>
+            <div id="leaderboard-container">
+                <div id="leaderboard-header"><h1>LEADERBOARD</h1></div>
+                <ul>
+                    <div class="li-container">
+                        <li style="color: #00FFFF;"><b>Name</b></li>
+                        <li style="color: #00FFFF;"><b>Class</b></li>
+                        <li style="color: #00FFFF;"><b>Emoji</b></li>
+                        <li style="color: #00FFFF;"><b>Color</b></li>
+                        <li style="color: #00FFFF;"><b>Special Move</b></li>
+                        <li style="color: #00FFFF;"><b>SM Command</b></li>
+                        <li style="color: #00FFFF;"><b>Time</b></li>
+                    </div>
+                </ul>
+            </div>
+    </div>
+        
+   
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
