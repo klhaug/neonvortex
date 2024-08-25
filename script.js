@@ -230,7 +230,7 @@ window.alert = (message) => {
                 newGameElement.classList.add("three")
                 break;
             case "three":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "four":
                 newGameElement.classList.remove("four")
@@ -241,7 +241,7 @@ window.alert = (message) => {
                 newGameElement.classList.add("six")
                 break;
             case "six":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "seven":
                 newGameElement.classList.remove("seven")
@@ -252,7 +252,7 @@ window.alert = (message) => {
                 newGameElement.classList.add("nine")
                 break;
             case "nine":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             default: 
                 console.log("somethings wrong")
@@ -267,7 +267,7 @@ window.alert = (message) => {
         
         switch(boxClass) {
             case "one":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "two":
                 newGameElement.classList.remove("two")
@@ -278,7 +278,7 @@ window.alert = (message) => {
                 newGameElement.classList.add("two")
                 break;
             case "four":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "five":
                 newGameElement.classList.remove("five")
@@ -289,7 +289,7 @@ window.alert = (message) => {
                 newGameElement.classList.add("five")
                 break;
             case "seven":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "eight":
                 newGameElement.classList.remove("eight")
@@ -336,13 +336,13 @@ window.alert = (message) => {
                 newGameElement.classList.add("nine")
                 break;
             case "seven":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "eight":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "nine":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             default: 
                 console.log("somethings wrong")
@@ -357,13 +357,13 @@ window.alert = (message) => {
         
         switch(boxClass) {
             case "one":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "two":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "three":
-                alert("Move back sir");
+                alert("Move back");
                 break;
             case "four":
                 newGameElement.classList.remove("four")
